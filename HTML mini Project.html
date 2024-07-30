@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+    <h1>Course registration</h1>
+    <body>
+        <forms>
+        <fieldset>
+            <legend>Personal details</legend>
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" name="FirstName" placeholder="Ex: Ajith" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>Surname</label></td>
+                    <td><input type="text" placeholder="Ex: Pidi" required></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td><input type="number" placeholder="Ex:958464445" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" placeholder="pidiajith@gmail.com" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="text" placeholder="Ex:*******" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>confirm Password</label></td>
+                    <td><input type="text" placeholder="Ex:*******" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>DOB</label></td>
+                    <td><input type="date" placeholder="Ex:16/12/2002" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>gender:</label></td>
+                    <td>male<input type="radio" name="MALE" value="M">
+                    female<input type="radio" name="FEMALE" value="F">
+                    custom<input type="radio" name="CUSTOM" value="C"><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>Select Country:</label></td>
+                    <td><select name="Country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                    </select><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>Upload Photo</label></td>
+                    <td><input type="file" required><br><br></table></td>
+                </tr>
+                <input type="reset">
+            </table>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Course Details
+                </legend>
+                <table>
+                    <tr>
+                    <td><label>Select course</label></td>
+                    <td><select name="Course name">
+                        <option value="FS">Full Stack</option>
+                        <option value="CC">Cloud computing</option>
+                        <option value="AIML">AI & ML</option>
+                    </select><br><br></td>
+                </tr>
+                <tr>
+                    <td><label>Delivery mode</label></td>
+                    <td>offline<input type="checkbox" name="mode" value="offline">
+                        online<input type="checkbox" name="mode" value="online"><br><br></td>                  
+                </tr>
+                <tr>
+                    <td><label>Comments</label><br><br></td>
+                    <td><textarea name="Comments" cols="40" rows="4"></textarea><br><br></td>
+                </tr>
+            </table>
+                </fieldset>
+                <img src="E:\Frontend\download.jpeg" width="80" height ="8f0" alt="image not found" type="input">
+        </forms>
+    </body>
+</html>
